@@ -1,9 +1,14 @@
 {
   "name": "use-global-state-store",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A little library to manage global state in React, inspired by Nuxt useState",
   "main": "dist/useGlobalState.js",
   "module": "dist/useGlobalState.mjs",
+  "homepage": "https://github.com/jeremy93-2008/use-globalstate#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremy93-2008/use-globalstate.git"
+  },
   "scripts": {
     "test": "vitest",
     "build": "tsup src/useGlobalState.ts --format cjs,esm --minify --outDir dist"
