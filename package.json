@@ -1,5 +1,5 @@
 {
-  "name": "use-globalstate",
+  "name": "use-global-state-store",
   "version": "1.0.0",
   "description": "A little library to manage global state in React, inspired by Nuxt useState",
   "main": "dist/useGlobalState.js",

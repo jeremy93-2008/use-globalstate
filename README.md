@@ -1,8 +1,8 @@
 ![useGlobalState](./logo.svg)
 # useGlobalState Hook
-![npm](https://img.shields.io/npm/v/use-globalstate)
-![npm](https://img.shields.io/npm/dt/use-globalstate)
-![NPM](https://img.shields.io/npm/l/use-globalstate)
+![npm](https://img.shields.io/npm/v/use-global-state-store)
+![npm](https://img.shields.io/npm/dt/use-global-state-store)
+![NPM](https://img.shields.io/npm/l/use-global-state-store)
 
 The `useGlobalState` hook is a custom React hook that allows you to manage global state in your application. It provides a simple and efficient way to share data between components without the need for prop drilling or complex state management libraries. Inspired by the `useState` composable from Nuxt.js.
 
@@ -11,7 +11,7 @@ The `useGlobalState` hook is a custom React hook that allows you to manage globa
 To use the `useGlobalState` hook in your project, you can install it via npm or yarn:
 
 ```bash
-npm install use-globalstate
+npm install use-global-state-store
 ```
 
 
@@ -23,7 +23,7 @@ Here's an example of how you can use the `useGlobalState` hook in your component
 
 ```jsx
 import React from 'react';
-import { useGlobalState } from 'use-globalstate';
+import { useGlobalState } from 'use-global-state-store';
 
 const Counter = () => {
   const [count, setCount] = useGlobalState('count', 0);
