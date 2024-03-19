@@ -1,0 +1,60 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`useGlobalState -> snapshot 1`] = `
+<div
+  data-testid="parent-container"
+>
+  <h1>
+    Parent Component
+  </h1>
+  <p
+    data-testid="parent-count"
+  >
+    Count: 
+    2
+  </p>
+  <p
+    data-testid="parent-count2"
+  >
+    Count: 
+    2
+  </p>
+  <button
+    data-testid="parent-button-increment"
+  >
+    Increment
+  </button>
+  <button
+    data-testid="parent-button-increment2"
+  >
+    Increment
+  </button>
+  <div>
+    <h1>
+      Child Component
+    </h1>
+    <button
+      data-testid="child-button-increment"
+    >
+      Increment
+    </button>
+    <p
+      data-testid="child-count"
+    >
+      Count: 
+      2
+    </p>
+    <button
+      data-testid="child-button-increment2"
+    >
+      Increment
+    </button>
+    <p
+      data-testid="child-count2"
+    >
+      Count: 
+      2
+    </p>
+  </div>
+</div>
+`;
