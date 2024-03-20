@@ -1,3 +1,5 @@
 src
 node-modules
 fixtures
+vitest.config.ts
+logo.svg
